@@ -1,0 +1,16 @@
+history
+start xterm
+background /usr/bin/xterm -bg green
+repeat 5 /usr/bin/xterm -bg purple
+byebye
+background xterm
+repeat 5 /usr/bin/xterm -bg purple
+byebye
+background xterm
+repeat 5 /usr/bin/xterm -bg purple
+terminate 62113
+terminate 62115
+byebye
+history
+replay 4
+replay 2
